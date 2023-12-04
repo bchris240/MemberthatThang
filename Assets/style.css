@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+/* Current Day Display Styles */
+#currentDay {
+  font-size: 1.5em;
+}
+
+/* Time Block Styles */
+.time-block {
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+/* Row Styles */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee; /* Light gray border color */
+  padding: 15px;
+}
+
+/* Day Styles */
+.day {
+  width: 9%; /* Adjusted to make space for time of day column */
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Textarea Styles */
+textarea {
+  flex: 1;
+  background: linear-gradient(to right, #8e44ad, #9b59b6); /* Varying shades of purple */
+  border: none;
+  resize: none;
+  color: #000; /* Black text color */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Save Button Styles */
+.saveBtn {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Save Button Hover Effect */
+.saveBtn:hover {
+  background-color: #2980b9; /* Darker shade for hover effect */
+}
+
+/* Time of Day Styles */
+.time-of-day {
+  text-align: center;
+  font-weight: bold;
+}
+
+

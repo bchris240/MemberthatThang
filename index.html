@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata for character set, viewport, and compatibility -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Link to external stylesheet for styling -->
+  <link rel="stylesheet" href="Assets/style.css" />
+
+  <!-- Page title and inclusion of Day.js library -->
+  <title>Work Day Scheduler</title>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.6"></script>
+</head>
+
+<body>
+  <!-- Header section with a title, description, and current day display -->
+  <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+
+  <!-- Main container for time blocks and time of day -->
+  <div class="container-lg px-5" id="timeBlocksContainer">
+    <div class="time-of-day col-2 col-md-1"></div>
+    <!-- Time blocks will be dynamically added here by JavaScript -->
+  </div>
+
+  <!-- External JavaScript library (jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- External Day.js library with integrity check -->
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript file for page behavior -->
+  <script src="Assets/script.js"></script>
+</body>
+
+</html>
